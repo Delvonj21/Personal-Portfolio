@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -24,12 +23,12 @@ nav {
 }
 
 .logo {
-  color: #FFF6F4;
+  color: #FFF5E0;
   font-size: 29px;
 }
 
 span {
-  color: #F86F03;
+  color: #FF6969;
 }
 
 nav ul li {
@@ -39,14 +38,14 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #FFF6F4;
+  color: #FFF5E0;
   text-decoration: none;
   font-weight: bold;
 }
 
 nav ul li a:hover {
   transition: .4s;
-  color: #F86F03;
+  color: #FF6969;
 }
 
 .main{
@@ -58,9 +57,9 @@ nav ul li a:hover {
 }
 
 h1 {
-  color: #FFF6F4;
-  font-size: 60px;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #FF6969;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -68,13 +67,13 @@ h1 {
 
 h2 {
   margin-bottom: 25px;
-  font-size: 60px;
-  color: #FFF6F4;
+  font-size: 40px;
+  color: #FFF5E0;
   line-height: 1.7;
 }
 
 button {
-  background: #F86F03;
+  background: #141E46;
   padding: 12px 30px;
   border: 2px solid transparent;
   border-radius: 30px;
@@ -87,7 +86,7 @@ button {
 
 button:hover {
   background: transparent;
-  border: 2px solid #FFA41B;
+  border: 2px solid #141E46;
   color: white;
   transform: translateY(-15px);
   cursor: pointer;
@@ -118,6 +117,6 @@ button:hover {
 
 .links .social a:hover {
   transform: translateY(10px);
-  color: #F86F03;
+  color: #FF6969;
 
 }
